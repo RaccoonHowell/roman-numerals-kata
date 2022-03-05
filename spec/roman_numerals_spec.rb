@@ -28,4 +28,9 @@ describe Roman_Numerals do
     it "returns 'VI' when passed 6" do
         expect(@roman_numerals.romanize(6)).to eq("VI")
     end
+
+    it "returns 'VII' when passed 7" do
+        expect(@roman_numerals.romanize(7)).to eq("VII")
+    end
 end
+
