@@ -24,4 +24,8 @@ describe Roman_Numerals do
     it "returns 'V' when passed 5" do
         expect(@roman_numerals.romanize(5)).to eq("V")
     end
+
+    it "returns 'VI' when passed 6" do
+        expect(@roman_numerals.romanize(6)).to eq("VI")
+    end
 end
