@@ -12,4 +12,8 @@ describe Roman_Numerals do
     it "returns 'II' when passed 2" do
         expect(@roman_numerals.romanize(2)).to eq('II')
     end
+
+    it "returns 'III' when passed 3" do
+        expect(@roman_numerals.romanize(3)).to eq('III')
+    end
 end
