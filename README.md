@@ -18,8 +18,8 @@ Compare your solutions to others
 
 ## setup
 
-bundle init 
-bundle add rspec 
-create spec folder and spec file 
-create file in root folder 
-require the main file in the spec file
+- bundle init 
+- bundle add rspec 
+- create spec folder and spec file 
+- create file in root folder 
+- require the main file in the spec file
