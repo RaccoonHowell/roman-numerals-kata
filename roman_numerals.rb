@@ -1,19 +1,14 @@
 class Roman_Numerals
     def romanize number
-        romanized_string = ""
+        numerals = {
+            1 => "I",
+            2 => "II",
+            3 => "III",
+            4 => "IV",
+            5 => "V",
+            6 => "VI" 
+        }
 
-        if number == 6
-            romanized_string += "VI"
-        elsif number == 5
-            romanized_string += "V"
-        elsif number == 4
-            romanized_string += "IV"
-        else
-            number.times do 
-                romanized_string += "I"
-            end
-        end
-
-        romanized_string
+        romanized_string = numerals[number]
     end
 end
