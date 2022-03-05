@@ -40,5 +40,9 @@ describe Roman_Numerals do
     it "returns 'IX' when passed 9" do
         expect(@roman_numerals.romanize(9)).to eq("IX")
     end
+
+    it "returns 'X' when passed 10" do
+        expect(@roman_numerals.romanize(10)).to eq("X")
+    end
 end
 
