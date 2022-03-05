@@ -2,7 +2,9 @@ class Roman_Numerals
     def romanize number
         romanized_string = ""
 
-        if number == 5
+        if number == 6
+            romanized_string += "VI"
+        elsif number == 5
             romanized_string += "V"
         elsif number == 4
             romanized_string += "IV"
