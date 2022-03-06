@@ -1,20 +1,27 @@
 class Roman_Numerals
     def romanize number
         numerals = {
-            1 => "I",
-            2 => "II",
-            3 => "III",
-            4 => "IV",
-            5 => "V",
-            6 => "VI",
-            7 => "VII",
-            8 => "VIII",
+            10 => "X",
             9 => "IX",
-            10 => "X"
+            8 => "VIII",
+            7 => "VII",
+            6 => "VI",
+            5 => "V",
+            4 => "IV",
+            3 => "III",
+            2 => "II",
+            1 => "I"
         }
 
-        romanized_string = numerals[number]
+        romanized_string = ""
 
-        # if number is greater than 10 add 10 to string then subtract 10 from number and check again. if then greater than 5 
+        numerals.each do | key, value |
+            if number >= key 
+                romanized_string << value
+                number -= key
+            end
+        end
+
+        romanized_string
     end
 end
