@@ -24,4 +24,7 @@ describe Roman_Numerals do
     test_romanize(14, "XIV")
     test_romanize(19, "XIX")
     test_romanize(20, "XX")
+    test_romanize(27, "XXVII")
+    test_romanize(34, "XXXIV")
+    test_romanize(40, "XL")
 end
