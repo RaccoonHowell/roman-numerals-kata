@@ -16,7 +16,7 @@ class Roman_Numerals
         romanized_string = ""
 
         numerals.each do | key, value |
-            if number >= key 
+            while number >= key 
                 romanized_string << value
                 number -= key
             end
