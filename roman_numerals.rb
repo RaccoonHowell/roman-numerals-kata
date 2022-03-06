@@ -14,5 +14,7 @@ class Roman_Numerals
         }
 
         romanized_string = numerals[number]
+
+        # if number is greater than 10 add 10 to string then subtract 10 from number and check again. if then greater than 5 
     end
 end
