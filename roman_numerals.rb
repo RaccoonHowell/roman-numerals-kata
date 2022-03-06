@@ -1,11 +1,12 @@
 class Roman_Numerals
     def romanize number
         numerals = {
+            40 => "XL",
             10 => "X",
-            9 => "IX",
-            5 => "V",
-            4 => "IV",
-            1 => "I"
+            9  => "IX",
+            5  => "V",
+            4  => "IV",
+            1  => "I"
         }
 
         romanized_string = ""
