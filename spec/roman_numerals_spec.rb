@@ -34,4 +34,5 @@ describe Roman_Numerals do
     test_romanize(400, "CD")
     test_romanize(500, "D")
     test_romanize(900, "CM")
+    test_romanize(1000, "M")
 end
