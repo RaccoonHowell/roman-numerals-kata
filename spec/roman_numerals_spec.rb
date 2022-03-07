@@ -29,6 +29,5 @@ describe Roman_Numerals do
     test_romanize(40, "XL")
     test_romanize(50, "L")
     test_romanize(60, "LX")
-    test_romanize(90, "LXXX")
-
+    test_romanize(90, "XC")
 end
