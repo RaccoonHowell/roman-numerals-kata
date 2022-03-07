@@ -1,6 +1,7 @@
 class Roman_Numerals
     def romanize number
         numerals = {
+            900 => "CM",
             500 => "D",
             400 => "CD",
             100 => "C",
